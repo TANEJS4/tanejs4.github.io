@@ -326,52 +326,61 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
+    width: 70%;
+    -moz-animation: photoshop 10s ease;
+    -webkit-animation: photoshop 10s ease;
+}
+.bash {
     width: 60%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
+    -moz-animation: photoshop 10s ease;
+    -webkit-animation: photoshop 10s ease;
 }
 .html {
     width: 60%;
-    -moz-animation: html 2s ease;
-    -webkit-animation: html 2s ease;
+    -moz-animation: html 10s ease;
+    -webkit-animation: html 10s ease;
 }
 .python{
     width: 90%;
-    -moz-animation: pyhton 2s ease;
-    -webkit-animation: python 2s ease;
+    -moz-animation: python 10s ease;
+    -webkit-animation: python 10s ease;
 }
-.css {
+.c {
     width: 80%;
-    -moz-animation: css 2s ease;
-    -webkit-animation: css 2s ease;
+    -moz-animation: c 10s ease;
+    -webkit-animation: c 10s ease;
 }
-.haskell {
-    width: 80%;
-    -moz-animation: haskell 2s ease;
-    -webkit-animation: haskell 2s ease;
+.asm {
+    width: 70%;
+    -moz-animation: asm 10s ease;
+    -webkit-animation: asm 10s ease;
 }
 .linux {
     width: 90%;
-    -moz-animation: linux 2s ease;
-    -webkit-animation: linux 2s ease;
+    -moz-animation: linux 10s ease;
+    -webkit-animation: linux 10s ease;
 }
 .java {
     width: 85%;
-    -moz-animation: java 2s ease;
-    -webkit-animation: java 2s ease;
+    -moz-animation: java 10s ease;
+    -webkit-animation: java 10s ease;
 }
 .matlab {
     width: 85%;
-    -moz-animation: matlab 2s ease;
-    -webkit-animation: matlab 2s ease;
+    -moz-animation: matlab 10s ease;
+    -webkit-animation: matlab 10s ease;
 }
 .maple {
     width: 70%;
-    -moz-animation: maple 2s ease;
-    -webkit-animation: maple 2s ease;
+    -moz-animation: maple 10s ease;
+    -webkit-animation: maple 10s ease;
 }
 
 @-moz-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes bash {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -383,7 +392,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -391,13 +400,13 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes haskell {
+@-moz-keyframes asm {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 86%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes matlab {
   0%   { width: 0px;  }
@@ -408,20 +417,25 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 70%;  }
 }
 
+
 @-webkit-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes bash {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-
 @-webkit-keyframes html {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes haskell {
+
+@-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -435,7 +449,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes matlab {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes asm {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes maple {
   0%   { width: 0px;  }
@@ -668,7 +686,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-  font-family: 'opensans-semibold', sans-serif; 
+  font-family: 'opensans-semibold', sans-serif;
   color: #D8D8D8;
 }
 
@@ -692,7 +710,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1041,4 +1059,3 @@ footer .social-links li:first-child { margin-left: 0; }
   border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
