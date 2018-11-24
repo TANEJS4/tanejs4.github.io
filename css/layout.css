@@ -335,10 +335,21 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: photoshop 10s ease;
     -webkit-animation: photoshop 10s ease;
 }
+.c {
+    width: 70%;
+    -moz-animation: c 2s ease;
+    -webkit-animation: c 2s ease;
+}
 .html {
+<<<<<<< HEAD
     width: 60%;
     -moz-animation: html 10s ease;
     -webkit-animation: html 10s ease;
+=======
+    width: 70%;
+    -moz-animation: html 2s ease;
+    -webkit-animation: html 2s ease;
+>>>>>>> 019b8ee56b1613c40338ea4ec59c6fd283a30986
 }
 .python{
     width: 90%;
@@ -386,7 +397,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
@@ -428,7 +443,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes bash {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes html {
   0%   { width: 0px;  }
