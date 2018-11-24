@@ -341,15 +341,11 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: c 2s ease;
 }
 .html {
-<<<<<<< HEAD
+
     width: 60%;
     -moz-animation: html 10s ease;
     -webkit-animation: html 10s ease;
-=======
-    width: 70%;
-    -moz-animation: html 2s ease;
-    -webkit-animation: html 2s ease;
->>>>>>> 019b8ee56b1613c40338ea4ec59c6fd283a30986
+
 }
 .python{
     width: 90%;
