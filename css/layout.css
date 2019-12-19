@@ -1,22 +1,3 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -40,12 +21,14 @@ header {
    overflow: hidden;
 }
 
+
 /* vertically center banner section */
 header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+
 }
 header .banner {
    display: inline-block;
@@ -54,6 +37,7 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;s
    text-align: center;
+
 }
 
 header .banner-text { width: 100%; }
@@ -65,15 +49,22 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 18px/1.9em 'librebaskerville-regular' bold, serif bold;
+   color: rgb(206, 206, 206);
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
+header .startscrollhover a{ 
+   color: #11ABB0; 
+}
+header .startscrollhover a:hover{ 
+   color: #11ABB0; 
+}
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
+font: bold;
 }
 header .banner-text hr {
    width: 60%;
@@ -111,7 +102,6 @@ header .scrolldown a {
    line-height: 42px;
    color: #fff;
    border-radius: 100%;
-
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
