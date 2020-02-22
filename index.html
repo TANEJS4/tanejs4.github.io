@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/media-queries.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Script
    ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -34,61 +34,77 @@
 	================================================== -->
     <link rel="shortcut icon" href="favicon.jpg" />
   </head>
-
+  
   <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Header
    ================================================== -->
     <header id="home">
       <nav id="nav-wrap">
-        <a class="mobile-btn" href="#nav-wrap" title="Show navigation"
-          >Show navigation</a
-        >
-        <a class="mobile-btn" href="#" title="Hide navigation"
-          >Hide navigation</a
-        >
-
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+          Show navigation
+        </a>
+        <a class="mobile-btn" href="#" title="Hide navigation">
+          Hide navigation
+        </a>
+        <div  data-aos="fade-down" data-aos-easing="ease-in-out-back" data-aos-duration="500">
         <ul id="nav" class="nav">
           <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
           <li><a class="smoothscroll" href="#about">About</a></li>
           <li><a class="smoothscroll" href="#resume">Experience</a></li>
           <li><a class="smoothscroll" href="#contact">Contact</a></li>
         </ul>
+        </div>
         <!-- end #nav -->
       </nav>
       <!-- end #nav-wrap -->
       <div class="row banner">
 
-                  <div class="banner-text">
+              <div class="banner-text">
 
-
-          <h1 class="responsive-headline startscrollhover">I'm Shivam Taneja</h1>
+           <div data-aos="fade-down"
+            data-aos-duration="900"
+            data-aos-easing="ease-out">     
+            <h1 class="responsive-headline startscrollhover">I'm Shivam Taneja</h1>
+          </div>      
           <h3>
-            I'm a <span>Software Developer</span>.
+            <div data-aos="zoom-in-down"
+            data-aos-delay="200" 
+            data-aos-duration="900"
+            data-aos-easing="ease-in-out"> 
+            I'm a
+             <span>Software Developer.</span>
+            
             <p>
               Let's
               <a class="smoothscroll" href="#about">start scrolling</a> and
               learn more <a class="smoothscroll" href="#about">about me</a>.
             </p>
           </h3>
+           </div>
           <ul class="social">
-            <li>
+
+            <li data-aos="zoom-out-down" data-aos-easing="ease-in-out" data-aos-delay="500"  data-aos-duration="900">
               <a href="https://www.linkedin.com/in/shivam-taneja-3a7467b4/">
               <h6 style="color:#d0d0d0;">LinkedIn</h6>
               <i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
-            <li>
+            <li data-aos="zoom-out-down" data-aos-easing="ease-in-out" data-aos-delay="500"  data-aos-duration="900">
               <a href="https://github.com/TANEJS4">
               <h6 style="color:#d0d0d0;">Github</h6>
               <i class="fa fa-github" aria-hidden="true"></i
               ></a>
             </li>
-            <li>
+            <li data-aos="zoom-out-down" data-aos-easing="ease-in-out" data-aos-delay="500"  data-aos-duration="900">
               <a href="https://www.facebook.com/shivam.taneja0124">
                 <h6 style="color:#d0d0d0;">Facebook</h6>
               <i class="fa fa-facebook" aria-hidden="true" ></i>
               </a>
             </li>
-            <li>
+            <li data-aos="zoom-out-down" data-aos-easing="ease-in-out" data-aos-delay="500"  data-aos-duration="900">
               <a href="https://www.instagram.com/tanxshiv/">
                 <h6 style="color:#d0d0d0;">Instagram</h6>
               <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -96,25 +112,30 @@
             </li>
           </ul>
         </div>
-      </div>
-
-      <p class="scrolldown">
-        <a class="smoothscroll" href="#about"
-          ><i class="icon-down-circle"></i
-        ></a>
-      </p>
+      </div> 
+        <p  class="scrolldown">
+          <a class="smoothscroll" href="#about">
+            <i  class="icon-down-circle"></i>
+          </a>
+        </p>
     </header>
     <!-- Header End -->
 
     <!-- About Section
    ================================================== -->
     <section id="about">
-      <div class="row">
-        <div class="three columns">
+      <div  class="row">
+        <div data-aos="fade-right"
+            data-aos-duration="1000"
+             data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="three columns">
           <img class="profile-pic" src="images/profilepic.png" alt="" />
         </div>
 
-        <div class="nine columns main-col">
+        <div data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine"
+            data-aos-mirror="true" class="nine columns main-col">
           <h2>About Me</h2>
 
           <p>
@@ -177,11 +198,17 @@
     <section id="resume">
       <!-- Skills------------------------------------------------->
       <div class="row skill">
-        <div class="three columns header-col">
+        <div  data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="three columns header-col">
           <h1><span>Skills</span></h1>
         </div>
 
-        <div class="nine columns main-col">
+        <div data-aos="fade-left"
+            data-aos-duration="1000"
+             data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="nine columns main-col">
           <div class="bars">
             <ul class="skills">
               <li><span class="bar-expand maple"></span><em>C#</em></li>
@@ -204,11 +231,17 @@
  =---------------------------------------------------------------------->
 
       <div class="row skill">
-        <div class="three columns header-col">
+        <div data-aos="fade-right"
+         data-aos-mirror="true" 
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine" class="three columns header-col">
           <h1><span>Technologies</span></h1>
         </div>
 
-        <div class="nine columns main-col">
+        <div data-aos="fade-left"
+         data-aos-mirror="true" 
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine" class="nine columns main-col">
           <div class="bars">
             <ul class="skills">
               <li>
@@ -246,11 +279,17 @@
       <!-- Work
       ----------------------------------------------- -->
       <div class="row work">
-        <div class="three columns header-col">
+        <div data-aos="fade-right"
+            data-aos-duration="1000"
+             data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="three columns header-col">
           <h1><span>Work</span></h1>
         </div>
 
-        <div class="nine columns main-col">
+        <div data-aos="fade-left"
+            data-aos-duration="1000"
+             data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="nine columns main-col">
           <div class="row item">
             <div class="twelve columns">
               <h3>Developer (Agile Infrastructure) Co-op</h3>
@@ -282,7 +321,10 @@
       <!-- Education
       ----------------------------------------------- -->
       <div class="row education">
-        <div class="three columns header-col">
+        <div data-aos="fade-right"
+         data-aos-mirror="true" 
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine" class="three columns header-col">
           <h1>
             <span>Education & </span><br />
             <br />
@@ -290,7 +332,10 @@
           </h1>
         </div>
 
-        <div class="nine columns main-col">
+        <div data-aos="fade-left"
+            data-aos-duration="1000"
+             data-aos-mirror="true" 
+            data-aos-easing="ease-in-out-sine" class="nine columns main-col">
           <div class="row item">
             <div class="twelve columns">
               <h3>McMaster University</h3>
@@ -332,10 +377,15 @@
     <section id="portfolio">
       <div class="row">
         <div class="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1 data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine" >Check Out Some of My Works.</h1>
 
           <!-- portfolio-wrapper -->
-          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+          <div data-aos="zoom-out-down"
+           data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-sine" id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
             <div class="columns portfolio-item">
               <div class="item-wrap">
                 <a href="#modal-01" title="">
