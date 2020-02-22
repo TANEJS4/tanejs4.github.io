@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/media-queries.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/headerAnimation.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Script
    ================================================== -->
@@ -50,14 +51,12 @@
         <a class="mobile-btn" href="#" title="Hide navigation">
           Hide navigation
         </a>
-        <div  data-aos="fade-down" data-aos-easing="ease-in-out-back" data-aos-duration="500">
         <ul id="nav" class="nav">
           <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
           <li><a class="smoothscroll" href="#about">About</a></li>
           <li><a class="smoothscroll" href="#resume">Experience</a></li>
           <li><a class="smoothscroll" href="#contact">Contact</a></li>
         </ul>
-        </div>
         <!-- end #nav -->
       </nav>
       <!-- end #nav-wrap -->
@@ -68,16 +67,21 @@
            <div data-aos="fade-down"
             data-aos-duration="900"
             data-aos-easing="ease-out">     
-            <h1 class="responsive-headline startscrollhover">I'm Shivam Taneja</h1>
+            <h1 class="cd-headline clip is-full-width responsive-headline startscrollhover ">
+              I'm 
+              <span class="cd-words-wrapper">
+                <b class="is-visible">Shivam Taneja</b>
+                <b>Software Developer </b>
+                <b>kinda good cook </b>
+              </span>
+            </h1>
+  
           </div>      
           <h3>
             <div data-aos="zoom-in-down"
             data-aos-delay="200" 
             data-aos-duration="900"
             data-aos-easing="ease-in-out"> 
-            I'm a
-             <span>Software Developer.</span>
-            
             <p>
               Let's
               <a class="smoothscroll" href="#about">start scrolling</a> and
@@ -127,15 +131,13 @@
       <div  class="row">
         <div data-aos="zoom-out-right"
             data-aos-duration="1000"
-             data-aos-mirror="true" 
             data-aos-easing="ease-out" class="three columns">
           <img class="profile-pic" src="images/profilepic.png" alt="" />
         </div>
 
         <div data-aos="zoom-out-left"
             data-aos-duration="1000"
-            data-aos-easing="ease-out"
-            data-aos-mirror="true" class="nine columns main-col">
+            data-aos-easing="ease-out" class="nine columns main-col">
           <h2>About Me</h2>
 
           <p>
@@ -200,14 +202,14 @@
       <div class="row skill">
         <div  data-aos="zoom-out-right"
             data-aos-duration="1000"
-            data-aos-mirror="true" 
+             
             data-aos-easing="ease-out" class="three columns header-col">
           <h1><span>Skills</span></h1>
         </div>
 
         <div data-aos="zoom-out-left"
             data-aos-duration="1000"
-             data-aos-mirror="true" 
+              
             data-aos-easing="ease-out" class="nine columns main-col">
           <div class="bars">
             <ul class="skills">
@@ -232,14 +234,14 @@
 
       <div class="row skill">
         <div data-aos="zoom-out-right"
-         data-aos-mirror="true" 
+          
             data-aos-duration="1000"
             data-aos-easing="ease-out" class="three columns header-col">
           <h1><span>Technologies</span></h1>
         </div>
 
         <div data-aos="zoom-out-left"
-         data-aos-mirror="true" 
+          
             data-aos-duration="1000"
             data-aos-easing="ease-out" class="nine columns main-col">
           <div class="bars">
@@ -281,14 +283,14 @@
       <div class="row work">
         <div data-aos="zoom-out-right"
             data-aos-duration="1000"
-             data-aos-mirror="true" 
+              
             data-aos-easing="ease-out" class="three columns header-col">
           <h1><span>Work</span></h1>
         </div>
 
         <div data-aos="zoom-out-left"
             data-aos-duration="1000"
-             data-aos-mirror="true" 
+              
             data-aos-easing="ease-out" class="nine columns main-col">
           <div class="row item">
             <div class="twelve columns">
@@ -322,7 +324,7 @@
       ----------------------------------------------- -->
       <div class="row education">
         <div data-aos="zoom-out-right"
-         data-aos-mirror="true" 
+          
             data-aos-duration="1000"
             data-aos-easing="ease-out" class="three columns header-col">
           <h1>
@@ -334,7 +336,7 @@
 
         <div data-aos="zoom-out-left"
             data-aos-duration="1000"
-             data-aos-mirror="true" 
+              
             data-aos-easing="ease-out" class="nine columns main-col">
           <div class="row item">
             <div class="twelve columns">
@@ -866,11 +868,13 @@
       type="text/javascript"
       src="js/jquery-migrate-1.2.1.min.js"
     ></script>
+    <script src="js/headerAnimation.js"></script>
 
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/waypoints.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+
   </body>
 </html>

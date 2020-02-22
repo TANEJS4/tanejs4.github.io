@@ -35,7 +35,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 
 }
@@ -315,7 +315,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   top: -36px;
 }
-
+/* 
 .photoshop {
     width: 70%;
     -moz-animation: photoshop 10s ease;
@@ -465,7 +465,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-
+ */
 
 
 /* ------------------------------------------------------------------ */
