@@ -29,57 +29,10 @@ a {
   text-decoration: none;
 }
 
-.cd-title {
-  position: relative;
-  height: 160px;
-  line-height: 230px;
-  text-align: center;
-}
-.cd-title h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-}
-@media only screen and (min-width: 768px) {
-  .cd-title {
-    line-height: 250px;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-title {
-    height: 200px;
-    line-height: 300px;
-  }
-  .cd-title h1 {
-    font-size: 3rem;
-  }
-}
-
-.cd-intro {
-  width: 90%;
-  max-width: 768px;
-  text-align: center;
-}
-
-.cd-intro {
-  margin: 4em auto;
-}
-@media only screen and (min-width: 768px) {
-  .cd-intro {
-    margin: 5em auto;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-intro {
-    margin: 6em auto;
-  }
-}
 
 .cd-headline {
   font-size: 3rem;
-  line-height: 1.2;
+  line-height: 1;
 }
 @media only screen and (min-width: 768px) {
   .cd-headline {
@@ -96,22 +49,22 @@ a {
 .cd-words-wrapper {
 	display: inline-block;
 	position: relative;
-	text-align: center;
-	
-
+	text-align: left;
 }
 .cd-words-wrapper b {
 	display: inline-block;
 	position: absolute;
 	white-space: nowrap;
-	font: 90px/1.1em 'opensans-bold', sans-serif;
+  font: 1em 'opensans-bold', sans-serif;
 	color: #fff;
 	letter-spacing: -2px;
 	margin: 0 auto 18px auto;
 	text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+
 }
 
 .cd-words-wrapper b.is-visible {
+    overflow: hidden;
   position: relative;
 }
 .no-js .cd-words-wrapper b {
@@ -132,7 +85,6 @@ xclip
   padding: .2em 0;
 }
 .cd-headline.clip .cd-words-wrapper {
-  overflow: hidden;
   vertical-align: top;
 }
 .cd-headline.clip .cd-words-wrapper::after {
