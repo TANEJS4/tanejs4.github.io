@@ -282,9 +282,14 @@ ul#nav li.current a { color: #F06000; }
   text-align: left;
 }
 .bars .skills {
-    margin-top: 36px;
+   margin-top: 36px;
    list-style: none;
+   columns: 2;
+   -webkit-columns: 2;
+   -moz-columns: 2;
+   list-style-position: inside;
 }
+
 /*
 .bars li {
    position: relative;
